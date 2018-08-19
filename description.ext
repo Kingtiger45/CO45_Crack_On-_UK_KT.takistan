@@ -1,0 +1,93 @@
+author="Kingtiger";
+onLoadName = "CO45 Crack On! UK KT";
+onLoadMission = "En patrull som alla andra... ";
+//overviewPicture = "pictures\crackon.jpg";
+loadScreen = "pictures\crackon.jpg";
+
+class header{
+	gametype = COOP;
+	minPlayers = 1;
+	maxPlayers = 45;
+}
+
+// Respawn för Arma Sweden; ändras ej! (https://community.bistudio.com/wiki/Arma_3_Respawn)
+respawn = 3;										// Typ av respawn.
+respawnDelay = 5;									// Respawn-tid.
+respawnVehicleDelay = 900;								// Respawn-tid för fordon.
+respawnDialog = 0;									// Gömmer poängtavlan.
+respawnTemplates[] = {"MenuPosition", "MenuInventory", "Spectator", "CustomWave"};	// Tillåter val av respawn-punkt och synkroniserar respawn-tiden hos fallna spelare.
+respawnTemplatesVirtual[] = {};
+//respawnOnStart = 1;									// Undviker respawn-tid vid spelstart.
+
+// Inställningar; ändras ej!
+disabledAI = 1;			// Stänger av AI-spelare i laget.
+joinUnassigned = 1;		// Hindrar spelare från att automatiskt bli utplacerade i lobbyn.
+enableDebugConsole = 1;		// Aktiverar konsolen för admin.
+
+// Parameters
+class Params
+{
+	// Farooq's revive-system (vanligtvis avaktiverat); ändras ej!.
+	class Revive
+	{
+		title = "Farooq's revive";
+		values[] = {0,1};
+		texts[] = {"Disabled","Enabled"};
+		default = 0;
+	};
+	// Respawn-tid; ändras ej!
+	class RespawnDelay
+	{
+		title = "Respawn time";
+		values[] = {30, 120, 300, 480};
+		texts[] = {"30-60 seconds", "2-4 minutes", "5-10 minutes", "8-16 minutes"};
+		default = 5;
+		file = "params\setRespawnDelay.sqf";
+	};
+	class CuratorGodMode
+	{
+		title = $STR_A3_MP_ZGM_m11.Altis_Params_CuratorUnlock;
+		values[] = {0,1};
+		texts[] = {$STR_DISABLED,$STR_ENABLED};
+		default = 1;
+	};
+	class CuratorModeratorRights
+	{
+		title = $STR_A3_MP_ZGM_m11.Altis_Params_CuratorModeratorRights;
+		values[] = {-1,0,1,2};
+		texts[] = {
+			"Spectating only",
+			$STR_A3_MP_ZGM_m11.Altis_Params_CuratorModeratorRights_0,
+			$STR_A3_MP_ZGM_m11.Altis_Params_CuratorModeratorRights_1,
+			$STR_A3_MP_ZGM_m11.Altis_Params_CuratorModeratorRights_2
+		};
+		default = -1;
+	};
+	class DebugConsole
+	{
+		title = "Debug console";
+		values[] = {0, 1};
+		texts[] = {"Disabled","Enabled"};
+		default = 1;
+	};
+};
+
+// Tillhör respawn-script. Ändras ej!
+class CfgRespawnTemplates
+{
+	class CustomPosition
+	{
+		onPlayerKilled = "respawn\customRespawnPosition.sqf";
+		onPlayerRespawn = "respawn\customRespawnPosition.sqf";
+	};
+	class CustomCounter
+	{
+		onPlayerKilled = "respawn\customRespawnCounter.sqf";
+		onPlayerRespawn = "respawn\customRespawnCounter.sqf";
+	};
+	class CustomWave
+	{
+		onPlayerKilled = "respawn\customWave.sqf";
+		onPlayerRespawn = "respawn\customWave.sqf";
+	};
+};

@@ -1,0 +1,44 @@
+L85or
+Vanlig med grip; CUP_arifle_L85A2_G
+UGL: CUP_arifle_L85A2_GL
+
+sharpshooter: 
+this addWeapon "CUP_srifle_L129A1_HG";
+this addPrimaryWeaponItem "CUP_acc_LLM";
+this addPrimaryWeaponItem "CUP_optic_SB_3_12x50_PMII";
+this addPrimaryWeaponItem "CUP_bipod_Harris_1A2_L";
+
+Magasin: ACE_20Rnd_762x51_M118LR_Mag och ACE_20Rnd_762x51_M993_AP_Mag
+
+L7A2 "gimpy"
+this addWeapon "CUP_lmg_L7A2";
+this addPrimaryWeaponItem "CUP_optic_ACOG";
+CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+
+L110 MINIMI
+CUP_lmg_L110A1
+CUP_optic_ACOG
+CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+
+
+ACOG: CUP_optic_ACOG
+Vapenlampa: CUP_acc_LLM
+L85 magasin
+Vanlig: CUP_30Rnd_556x45_Stanag
+Spårljus: 30Rnd_556x45_Stanag_Tracer_Red
+
+Granater
+Spräng: CUP_HandGrenade_L109A1_HE
+Rök vit: SmokeShell
+Rök övrigt: SmokeShellRed, SmokeShellGreen, SmokeShellYellow, SmokeShellPurple
+
+L2A1 ILAW: ACE_PreloadedMissileDummy_M72A6_CUP + CUP_launch_M72A6
+
+
+Minsökare:
+this addWeapon "ACE_VMH3";
+
+
+CUP_H_BAF_Helmet_Net_2_MTP
+CUP_H_BAF_Helmet_4_MTP
+CUP_H_BAF_Helmet_1_MTP
