@@ -881,7 +881,7 @@ switch (typeof player) do {
 		removeHeadgear player;
 
 		comment "Add containers";
-		player forceAddUniform "SAM_Crye_M90_uniform";
+		player forceAddUniform "CUP_U_B_BAF_MTP_S6_UnRolled";
 		player addItemToUniform "ACE_EarPlugs";
 		player addItemToUniform "ACE_Flashlight_MX991";
 		player addItemToUniform "ACE_MapTools";
@@ -893,7 +893,7 @@ switch (typeof player) do {
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
 		player addItemToUniform "ACE_personalAidKit";
 		
-		player addVest "CUP_V_B_USArmy_PilotVest";
+		player addVest "CUP_V_B_PilotVest";
 		for "_i" from 1 to 4 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
 		for "_i" from 1 to 2 do {player addItemToVest "CUP_17Rnd_9x19_glock17";};
 		for "_i" from 1 to 2 do {player addItemToVest "CUP_HandGrenade_L109A1_HE";};
@@ -935,7 +935,7 @@ switch (typeof player) do {
 		removeHeadgear player;
 
 		comment "Add containers";
-		player forceAddUniform "SAM_Crye_M90_uniform";
+		player forceAddUniform "CUP_U_B_BAF_MTP_S6_UnRolled";
 		player addItemToUniform "ACE_EarPlugs";
 		player addItemToUniform "ACE_Flashlight_MX991";
 		player addItemToUniform "ACE_MapTools";
@@ -947,7 +947,7 @@ switch (typeof player) do {
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
 		player addItemToUniform "ACE_personalAidKit";
 		
-		player addVest "CUP_V_B_USArmy_PilotVest";
+		player addVest "CUP_V_B_PilotVest";
 		for "_i" from 1 to 4 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
 		for "_i" from 1 to 2 do {player addItemToVest "CUP_17Rnd_9x19_glock17";};
 		for "_i" from 1 to 2 do {player addItemToVest "CUP_HandGrenade_L109A1_HE";};

@@ -12,7 +12,7 @@ class header{
 
 // Respawn för Arma Sweden; ändras ej! (https://community.bistudio.com/wiki/Arma_3_Respawn)
 respawn = 3;										// Typ av respawn.
-respawnDelay = 5;									// Respawn-tid.
+respawnDelay = 2;									// Respawn-tid.
 respawnVehicleDelay = 900;								// Respawn-tid för fordon.
 respawnDialog = 0;									// Gömmer poängtavlan.
 respawnTemplates[] = {"MenuPosition", "MenuInventory", "Spectator", "CustomWave"};	// Tillåter val av respawn-punkt och synkroniserar respawn-tiden hos fallna spelare.
@@ -41,7 +41,7 @@ class Params
 		title = "Respawn time";
 		values[] = {30, 120, 300, 480};
 		texts[] = {"30-60 seconds", "2-4 minutes", "5-10 minutes", "8-16 minutes"};
-		default = 5;
+		default = 60;
 		file = "params\setRespawnDelay.sqf";
 	};
 	class CuratorGodMode
