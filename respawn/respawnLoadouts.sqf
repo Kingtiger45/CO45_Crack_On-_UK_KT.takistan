@@ -397,7 +397,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -450,7 +449,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -506,7 +504,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -547,6 +544,8 @@ switch (typeof player) do {
 		for "_i" from 1 to 2 do {player addItemToVest "CUP_17Rnd_9x19_glock17";};		
 		player addItemToVest "ACE_RangeCard";
 		player addItemToVest "ACE_Kestrel4500";
+		player addItemToVest "ACE_ATragMX";
+		player addItemToVest "ACE_DAGR";
 		
 		player addBackpack "B_Kitbag_mcamo";
 		player addHeadgear "CUP_H_BAF_Helmet_1_MTP";
@@ -558,13 +557,13 @@ switch (typeof player) do {
 		player addPrimaryWeaponItem "CUP_optic_SB_3_12x50_PMII";
 		player addPrimaryWeaponItem "bipod_01_F_blk";
 		player addWeapon "CUP_hgun_Glock17_blk";
+		player addWeapon "ACE_VectorDay";
 
 		comment "Add items";
 		player linkItem "ItemMap";
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -686,7 +685,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -860,7 +858,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -1023,7 +1020,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -1080,7 +1076,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -1131,7 +1126,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
