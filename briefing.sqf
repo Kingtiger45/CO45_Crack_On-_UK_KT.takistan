@@ -5,67 +5,69 @@
 
 player createDiaryRecord["Diary", ["ANTECKNINGAR", "Scenario gjord av Kingtiger 2018-08-09. Motståndaren styrs av ZEUS."]];
 
+player createDiaryRecord["Diary", ["MENTION IN DISPATCHES", "Vill rikta ett stort tack till [Anrop]Dahlgren för all hjälp han har bistått med i tillverkandet av det här scenariot. Utan hans hjälp hade det här varit ett mycket tråkigare scenario!"]];
+
+player createDiaryRecord["Diary", ["ORBAT","ORBAT (Order of Battle).<br/>
+1 Skyttepluton (5 PLATOON) ur B-COY. Understödda av:<br/>
+1 Recce Fire Team, spaning med prickskytt<br/>
+1 Fire Support Group, 2st Jackals som förutom fordonets beväpning av 12.7 eller 40mm som går att plocka av och markgruppera:<br/>
+1st L7A2, 1st Minsökare och 1st FMG-148 Javelin med 5 robotar i varje fordon."]];
+
 player createDiaryRecord["Diary", ["LEDNING", "LEDNING<br/>
-Frekvenser enligt rutin.<br/>
-Kompaninät QJ: 60Mhz (Samband Zeus samt HKP) <br/> 
-Plutonsnät AQ: 50Mhz samt 100Mhz<br/>
-EA: 110Mhz<br/>
-FA: 120Mhz<br/>
-GA: 130Mhz<br/>"]];
+Frekvenser enligt förslag (upp till PlutC att ändra om han önskar).<br/>
+Kompaninät B-COY: 60Mhz (Samband Zeus samt HKP/UAV)<br/> 
+Plutonsnät 5 PLATOON: 50Mhz samt 100Mhz<br/>
+5-1: 110Mhz<br/>
+5-2: 120Mhz<br/>
+5-3: 130Mhz<br/>
+Recce Fire Team: 140Mhz<br/>
+FSG/Jackal: 150Mhz<br/>
+AH-64 Apache: 160Mhz<br/>
+Merlin 1: 170Mhz<br/>
+Merlin 2: 180Mhz<br/>"]];
 
 player createDiaryRecord["Diary", ["LOGISTIK", "LOGISTIK<br/>
 
-SJUKVÅRD: Plutonsjukvårdaren kan använda PAK varsomhelst. Stridssjukvårdare kan ej använda PAK förutom i båtar/helikoptrar.<br/>
-Uppdragsspecialister i helikoptrar är medics.<br/><br/>
+SJUKVÅRD: Full heal sker i FOB BISHOP's ROLE 2 Medic tent som är en medical facility. plutonssjukvårdare och alla som är CLS gan ge full heal i tältet.<br/>
+Sjukvårdsmtrl finns på flera olika ställen, under taket med den övriga utrustningen, i Jackal fordonen, Merlin-helikoptrarna och slutligen i medical tent.<br/><br/>
 
-AMMUNITION: Plutonen är 100% uppfyllt, vill PlutC/Enskild soldat ta med extra ammunition finns det i lådorna i FOB:en.<br/>
+AMMUNITION: Plutonen är 100% uppfyllt, vill PlutC/Enskild soldat ta med extra ammunition finns det i lådorna under plåttaket.<br/>
 Tillgängligt i lådorna finns all finkal till handeldvapen samt granater, både handgranater och till granattillsats.<br/>
-Utöver det finns det en FARB låda med sprängladdningar och tändanordningar ifall grupperna behöver fylla upp med det.<br/>"]];
+Utöver det finns det en FARB låda med sprängladdningar och tändanordningar samt en låda med PV-vapen M136 och M72.<br/>"]];
 
 player createDiaryRecord["Diary", ["BESLUT", "BESLUT<br/>
 Plutonchefens beslut kommer här.<br/>"]];
 
 player createDiaryRecord["Diary", ["UPPGIFT", "UPPGIFT<br/>
-Vår pluton (AQ) ska inledningsvis infiltrera genom djungeln antingen via båtar eller helikopter, för att därefter slå mot <marker name = 'knarkfabrik1'>KNARKFABRIKEN 1</marker>, spränga fabriken och frita Mr Johnsson för att därefter urnästla tillbaka till FOB:en via båt eller helikopter."]];
+Vår pluton (5 PLATOON) ska inledningsvis..., för att därefter....."]];
 
 player createDiaryRecord["Diary", ["ORIENTERING", "ORIENTERING<br/>
 LÄGET I STORT<br/>
-Vi befinner oss på <marker name = 'fobviking'>FOB VIKING</marker> som en Svensk del i kriget mot narkotikan i Sydostasien som har tagit över efter Sydamerika som världens knarkproducent.<br/><br/> 
-Spaning har avslöjat totalt 3 knarkfabriker i vårt operationsområde samt en flygplats som används för transport. Vår uppgift här är att slå ut så mycket av främst kokaintillverkningen som möjligt och störa knarkkartellernas operationer.<br/><br/>
-För 2 månader sedan kidnappades den svenska ambassadören Marcus Johnsson och spaning indikerar nu att han flyttades till <marker name = 'knarkfabrik1'>KNARKFABRIKEN 1</marker> igår i dåligt skick, så att få ut honom snarast är av högsta vikt.<br/><br/>
+.<br/><br/>
 
 MOTSTÅNDAREN<br/>
-Består av knarkartellen Narcos (Uniformer och vapen enligt SYNDIKAT) som sköter sina affärer brutalt och effektivt.<br/>
-Dom anlitar väldigt mycket lokal lojal manskap och utrustar med bra vapen, så i vårt operationsområde 
-finns det tungt bestyckade styrkor med kulsprutor, RPG samt även MANPADS.<br/>
-Knarkkartellen har varit i krig med sin egen Regering i många år och är erfarna och listiga samt har ett brett nät av informatörer. 
-Runt sina knarkfabriker har man identifierat ett närskydd av vakter inne i fabriken som även bevakar arbeterna som måste jobba i underkläder för att inte kunna stjäla knark och runtom fabriken, ett yttre skal av patruller som närpatrullerar samt
-ett fjärrpatrullsystem som är avsedd att lokalisera våra operationer i ett tidigt skede.<br/><br/>
+.<br/><br/>
 
-Det är även känt att runtom i området är luftvärnspatruller utsatta på viktiga höjder med MANPADS för att kunna verka mot vår vanligaste transportmedel, helikopter samt UAV.<br/><br/>
-
-Bedömningen är att varje knarkfabrik försvaras av 30-40 man totalt i både närskydd och fjärrpatruller med understöd av lättare fordon med beväpning för snabb insats.<br/><br/>
-
-I vårt område är som sagt 3 fabriker och en flygplats lokaliserad. <marker name = 'knarkfabrik1'>FABRIK 1</marker> är i full produktion medans <marker name = 'knarkfabrik3'>FABRIK 3</marker> är under uppstart medans <marker name = 'knarkfabrik2'>FABRIK 2</marker> är nerstängd för tillfället av oklar anledning.
-Flygplatsen används för in och uttransport av gods och personal men verkar inte vara aktiv utöver det.<br/><br/>
-
-Bedömningen är från tidigare erfarenheter att slår vi mot en fabrik kommer närliggande fabriker gå upp i högsta beredskap och den lokala QRF rycka ut mot oss. Dock medför terrängen och dom dåliga vägarna att QRF har en begränsad framkomlighet och lång tid till insats.<br/><br/>
+.<br/><br/>
 
 EGNA FÖRBAND<br/> 
-Vår Pluton är lokaliserad på FOB VIKING med närskydd löst av Regeringstrupper.
-Resten av kompaniet är utspritt över stort område med egna operationsområden att lösa uppgifter i, dvs vi är dom enda vänliga förband i vårt område. Vi har inte tillgång till någon indirekt eld eller spetsflyg.<br/><br/>
+.<br/><br/>
 
 UNDERSTÖD<br/>
-2 x UH-60M med miniguns 
-4 x RHIB med Tksp 12.7 i fören. samt två RHIB har även Granatspruta i aktern.
-1 x TUAV MQ-9 Reaper<br/><br/>
+1 x AH-64D APache<br/>
+2 x Merlin HC3A<br/>
+2 x Jackal GMG/HMG<br/>
+2 x 105mm howitzer<br/>
+1 x UAV Yabhon med 2 x AGL-114<br/>
+<br/><br/>
 CIVILA<br/>
-Finns i området, bedömt lojala mot knarkkartellen som betalar dom som informatörer. Jobbar i övrigt med sitt eget, sköter gården och arbetar i fälten osv. Slutsats är att vi bör undvika direktkontakt med civilbefolkning då risken är stor att dom varnar knarkkartellen om vår ankomst."]];
+Befolkningen i det här området består främst av bönder och fårherdar som har hamnat i kläm i kriget mellan Talibaner och NATO-styrkor.<br/>
+Området är under tung Talibankontroll och majoriteten av invånarna antingen lyder Talibanerna eller jobbar direkt för dom.<br/>
+Erfarenhet från tidigare patruller är att dom civila försöker lämna områden som dom ser kommer hamna i strid, och fastnar dom i striden håller dom sig inomhus i skydd.<br/>"]];
 
 player createDiaryRecord["Diary", ["TIDGIVNING/TERRÄNGORIENTERING", "TIDGIVNING SAMT TERRÄNGORIENTERING<br/>
-Klockan är 05.00 den 9.e Augusti 2017, kartan är PREI KMHAOCH LUONG och norr går över kartans övre kant, vi befinner oss i <marker name = 'respawn_west'>FOB VIKING</marker> som är vår bas i området.<br/>    
+Klockan är 03.30 den 4.e Juni 2010, gryningen (när man kan stänga av NVG) kommer om 20min, dvs 03.50. Kartan är TAKISTAN och norr går över kartans övre kant, vi befinner oss i <marker name = 'respawn_west'>FOB BISHOP</marker> som är vår bas i området.<br/>    
 <br/>
-Terrängen är tjock kuperad djungel med vattendrag som skär igenom vårt operationsområde med endast en bro vid byn PHOUM SREI APHSOK. Det finns några småvägar i området som är dåligt skötta utöver det är det vattendraget som är områdets trafikled.
-Vädret är typiskt djungelväder för det här området med mycket moln, regn och hög luftfugtighet vilket har påverkat både helikopter och UAVs förmåga till observation.<br/>
+Terrängen är bergig med dalar där små fält med vegetation och inramade compounds behärskar terrängen.<br/>
 <br/>
-Slutsatser för vår strid är att vi kommer ha korta skjutavstånd med krav på högt initiativtagande och hög samordning. Inne i djungeln är det mörkt en bra bit in på morgonen vilket kommer påverka våra bildförstärkare negativt innan solen lyckas tränga igenom. Det tjocka trädtaket hämmar även värmekameran på UAV vilket innebär att ett område genomsökt av UAV inte kan anses som säkert.<br/>"]];
+Slutsatser för vår strid....<br/>"]];

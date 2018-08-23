@@ -53,7 +53,7 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
+		player addItemToUniform "ACE_DAGR";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_SquadLeader";
 		for "_i" from 1 to 5 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -83,7 +83,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -115,7 +114,7 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
+		player addItemToUniform "ACE_DAGR";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_Grenadier";
 		for "_i" from 1 to 5 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -152,7 +151,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -184,7 +182,7 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
+		player addItemToUniform "ACE_DAGR";
 		
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_Grenadier";
@@ -216,7 +214,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -248,7 +245,7 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
+		player addItemToUniform "ACE_DAGR";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_SquadLeader";
 		for "_i" from 1 to 5 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -276,7 +273,6 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
@@ -308,7 +304,7 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
+		player addItemToUniform "ACE_DAGR";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_SquadLeader";
 		for "_i" from 1 to 5 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -341,14 +337,13 @@ switch (typeof player) do {
 		player linkItem "ItemCompass";
 		player linkItem "ItemWatch";
 		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
 		player linkItem "CUP_NVG_HMNVS";
 
 		comment "Set identity";
 		[player,"SAM_SAF"] call bis_fnc_setUnitInsignia;
 	};
 	
-	// KSP90 Skytt
+	// LMG Minimi Skytt
 	case  "B_soldier_AR_F" : {
 		comment "Exported from Arsenal by Kingtiger";
 
@@ -373,8 +368,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
-		
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_MachineGunner";
 		for "_i" from 1 to 2 do {player addItemToVest "CUP_200Rnd_TE4_Red_Tracer_556x45_M249";};
@@ -403,7 +396,7 @@ switch (typeof player) do {
 		[player,"SAM_SAF"] call bis_fnc_setUnitInsignia;
 	};
 	
-	// KSP58 Skytt
+	// GPMG Skytt
 	case  "B_HeavyGunner_F" : {
 		comment "Exported from Arsenal by Kingtiger";
 
@@ -428,8 +421,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
-		
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_MachineGunner";
 		for "_i" from 1 to 2 do {player addItemToVest "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";};
@@ -480,7 +471,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_MachineGunner";
 		for "_i" from 1 to 8 do {player addItemToVest "ACE_20Rnd_762x51_M118LR_Mag";};
@@ -535,7 +525,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_MachineGunner";
 		for "_i" from 1 to 8 do {player addItemToVest "CUP_5Rnd_86x70_L115A1";};
@@ -569,62 +558,7 @@ switch (typeof player) do {
 		comment "Set identity";
 		[player,"SAM_SAF"] call bis_fnc_setUnitInsignia;
 	};
-	
-	// Rb57 Skytt
-	case  "B_soldier_LAT_F" : {
-		comment "Exported from Arsenal by Kingtiger";
-
-		comment "Remove existing items";
-		removeAllWeapons player;
-		removeAllItems player;
-		removeAllAssignedItems player;
-		removeUniform player;
-		removeVest player;
-		removeBackpack player;
-		removeHeadgear player;
-
-		comment "Add containers";
-		player forceAddUniform "SAM_Crye_M90_uniform";
-		player addItemToUniform "ACE_EarPlugs";
-		player addItemToUniform "ACE_Flashlight_MX991";
-		player addItemToUniform "ACE_MapTools";
-		player addItemToUniform "ACE_EntrenchingTool";
-		player addItemToUniform "ACE_IR_Strobe_Item";
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-		for "_i" from 1 to 4 do {player addItemToUniform "ACE_elasticBandage";};
-		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
-		
-		player addVest "SAM_PlateCarrier";
-		for "_i" from 1 to 6 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
-		for "_i" from 1 to 2 do {player addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
-		for "_i" from 1 to 3 do {player addItemToVest "CUP_HandGrenade_L109A1_HE";};
-		for "_i" from 1 to 3 do {player addItemToVest "SmokeShell";};
-		
-		player addBackpack "B_Kitbag_mcamo";
-		player addHeadgear "SAM_HelmetIA_M90";
-		player addGoggles "sam_peltor_bronze";
-		
-		comment "Add weapons";
-		player addWeapon "SAM_AK5C";
-		player addPrimaryWeaponItem "CUP_acc_LLM";
-		player addPrimaryWeaponItem "CUP_optic_ACOG";
-		player addWeapon "launch_NLAW_F";
-
-		comment "Add items";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
-		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
-		player linkItem "CUP_NVG_HMNVS";
-
-		comment "Set identity";
-		[player,"SAM_SAF"] call bis_fnc_setUnitInsignia;
-	};
-	
+			
 	// CLS 
 	case  "TF47_B_soldier_AT4HEAT" : {
 		comment "Exported from Arsenal by SageNTitled";
@@ -650,7 +584,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_Grenadier";
 		for "_i" from 1 to 6 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -691,118 +624,7 @@ switch (typeof player) do {
 		[player,"SAM_SAF"] call bis_fnc_setUnitInsignia;
 	};
 	
-	// GRG M/86 skyttt
-	case  "B_soldier_AT_F" : {
-		comment "Exported from Arsenal by Kingtiger";
-
-		comment "Remove existing items";
-		removeAllWeapons player;
-		removeAllItems player;
-		removeAllAssignedItems player;
-		removeUniform player;
-		removeVest player;
-		removeBackpack player;
-		removeHeadgear player;
-
-		comment "Add containers";
-		player forceAddUniform "SAM_Crye_M90_uniform";
-		player addItemToUniform "ACE_EarPlugs";
-		player addItemToUniform "ACE_Flashlight_MX991";
-		player addItemToUniform "ACE_MapTools";
-		player addItemToUniform "ACE_EntrenchingTool";
-		player addItemToUniform "ACE_IR_Strobe_Item";
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-		for "_i" from 1 to 4 do {player addItemToUniform "ACE_elasticBandage";};
-		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
-		
-		player addVest "SAM_PlateCarrier";
-		for "_i" from 1 to 6 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
-		for "_i" from 1 to 2 do {player addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
-		for "_i" from 1 to 3 do {player addItemToVest "CUP_HandGrenade_L109A1_HE";};
-		for "_i" from 1 to 3 do {player addItemToVest "SmokeShell";};		
-		
-		player addBackpack "SAM_GRG_Backpack_Heat";
-				
-		player addHeadgear "SAM_HelmetIA_M90";
-		player addGoggles "sam_peltor_bronze";
-		
-		comment "Add weapons";
-		player addWeapon "SAM_AK5C";
-		player addPrimaryWeaponItem "CUP_acc_LLM";
-		player addPrimaryWeaponItem "CUP_optic_ACOG";
-		player addWeapon "sam_grg_m86";
-		player addSecondaryWeaponItem "sam_acco_m86";
-
-		comment "Add items";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
-		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
-		player linkItem "CUP_NVG_HMNVS";
-
-		comment "Set identity";
-		[player,"SAM_SAF"] call bis_fnc_setUnitInsignia;
-	};
-	// GRG M/86 Ladd
-	case  "B_soldier_AAT_F" : {
-		comment "Exported from Arsenal by Kingtiger";
-
-		comment "Remove existing items";
-		removeAllWeapons player;
-		removeAllItems player;
-		removeAllAssignedItems player;
-		removeUniform player;
-		removeVest player;
-		removeBackpack player;
-		removeHeadgear player;
-
-		comment "Add containers";
-		player forceAddUniform "SAM_Crye_M90_uniform";
-		player addItemToUniform "ACE_EarPlugs";
-		player addItemToUniform "ACE_Flashlight_MX991";
-		player addItemToUniform "ACE_MapTools";
-		player addItemToUniform "ACE_EntrenchingTool";
-		player addItemToUniform "ACE_IR_Strobe_Item";
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-		for "_i" from 1 to 4 do {player addItemToUniform "ACE_elasticBandage";};
-		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
-		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
-		
-		player addVest "SAM_PlateCarrier";
-		for "_i" from 1 to 6 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
-		for "_i" from 1 to 2 do {player addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
-		for "_i" from 1 to 3 do {player addItemToVest "CUP_HandGrenade_L109A1_HE";};
-		for "_i" from 1 to 3 do {player addItemToVest "SmokeShell";};		
-		
-		player addBackpack "SAM_GRG_Backpack_Heat";
-				
-		player addHeadgear "SAM_HelmetIA_M90";
-		player addGoggles "sam_peltor_bronze";
-		
-		comment "Add weapons";
-		player addWeapon "SAM_AK5C";
-		player addPrimaryWeaponItem "CUP_acc_LLM";
-		player addPrimaryWeaponItem "CUP_optic_ACOG";
-		
-		comment "Add items";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
-		player linkItem "ItemRadio";
-		player linkItem "ItemGPS";
-		player linkItem "CUP_NVG_HMNVS";
-
-		comment "Set identity";
-		[player,"SAM_SAF"] call bis_fnc_setUnitInsignia;
-	};
-	
-	// Ingenjör offensiv
+	// Sapper EOD
 	case  "B_soldier_exp_F" : {
 		comment "Exported from Arsenal by Kingtiger";
 
@@ -827,7 +649,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_Rifleman";
 		for "_i" from 1 to 6 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -841,8 +662,6 @@ switch (typeof player) do {
 		player addItemToBackpack "ACE_DefusalKit";
 		player addItemToBackpack "ACE_Clacker";
 		for "_i" from 1 to 6 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
-		
-		
 		
 		player addHeadgear "CUP_H_BAF_Helmet_4_MTP";
 		player addGoggles "sam_peltor_bronze";
@@ -888,7 +707,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
 		
 		player addVest "CUP_V_B_PilotVest";
 		for "_i" from 1 to 4 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -942,7 +760,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
 		
 		player addVest "CUP_V_B_PilotVest";
 		for "_i" from 1 to 4 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -994,7 +811,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_Rifleman";
 		for "_i" from 1 to 6 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -1051,7 +867,6 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
 		
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_MachineGunner";
 		for "_i" from 1 to 6 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
@@ -1082,7 +897,7 @@ switch (typeof player) do {
 		[player,"SAM_SAF"] call bis_fnc_setUnitInsignia;
 	};
 	
-	// Stridsfordonsbesättning
+	// Jackal-besättning
 	case  "B_crew_F" : {
 		comment "Exported from Arsenal by Kingtiger";
 
@@ -1106,8 +921,7 @@ switch (typeof player) do {
 		for "_i" from 1 to 6 do {player addItemToUniform "ACE_quikclot";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 		for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
-		player addItemToUniform "ACE_personalAidKit";
-		
+	
 		player addVest "CUP_V_BAF_Osprey_Mk4_MTP_SquadLeader";
 		for "_i" from 1 to 4 do {player addItemToVest "CUP_30Rnd_556x45_Stanag";};
 		for "_i" from 1 to 2 do {player addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};

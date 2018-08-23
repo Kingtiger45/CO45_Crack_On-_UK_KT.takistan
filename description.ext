@@ -1,5 +1,5 @@
 author="Kingtiger";
-onLoadName = "CO45 Crack On! UK KT";
+onLoadName = "CO49 Crack On! UK KT";
 onLoadMission = "En patrull som alla andra... ";
 //overviewPicture = "pictures\crackon.jpg";
 loadScreen = "pictures\crackon.jpg";
@@ -7,7 +7,7 @@ loadScreen = "pictures\crackon.jpg";
 class header{
 	gametype = COOP;
 	minPlayers = 1;
-	maxPlayers = 45;
+	maxPlayers = 49;
 }
 
 // Respawn för Arma Sweden; ändras ej! (https://community.bistudio.com/wiki/Arma_3_Respawn)
