@@ -3,7 +3,7 @@
 //Sidbrytning <br/>  
 //<font color='#FF0000' size='14'></font>
 
-player createDiaryRecord["Diary", ["ANTECKNINGAR", "Scenario gjord av Kingtiger 2018-08-09. Motståndaren styrs av ZEUS."]];
+player createDiaryRecord["Diary", ["ANTECKNINGAR", "Scenario gjord av Kingtiger 2018-08-24. Motståndaren styrs av ZEUS."]];
 
 player createDiaryRecord["Diary", ["MENTION IN DISPATCHES", "Vill rikta ett stort tack till [Anrop]Dahlgren för all hjälp han har bistått med i tillverkandet av det här scenariot. Utan hans hjälp hade det här varit ett mycket tråkigare scenario!"]];
 

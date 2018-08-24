@@ -91,3 +91,15 @@ class CfgRespawnTemplates
 		onPlayerRespawn = "respawn\customWave.sqf";
 	};
 };
+
+class CfgSounds
+{
+    class saystavaj
+    {
+    name="Allahuakbar";
+    sound[]={allahu.ogg, 1, 4.0};
+    titles[]={};
+    };
+
+    
+};

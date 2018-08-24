@@ -13,4 +13,4 @@ _expl3 attachTo [_suicider, [0.1,0.1,0.15],"Pelvis"];
     (_this select 0) setVectorDirAndUp [[0.5,0.5,0],[-0.5,0.5,0]];
     (_this select 1) setVectorDirAndUp [[1,0,0],[0,1,0]];
     (_this select 2) setVectorDirAndUp [[0.5,-0.5,0],[0.5,0.5,0]];
-}] remoteExec ["call", 0, false];
+}] remoteExec ["call", 0, true];
