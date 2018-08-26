@@ -15,7 +15,7 @@ respawn = 3;										// Typ av respawn.
 respawnDelay = 2;									// Respawn-tid.
 respawnVehicleDelay = 900;								// Respawn-tid för fordon.
 respawnDialog = 0;									// Gömmer poängtavlan.
-respawnTemplates[] = {"MenuPosition", "MenuInventory", "Spectator", "CustomWave"};	// Tillåter val av respawn-punkt och synkroniserar respawn-tiden hos fallna spelare.
+respawnTemplates[] = {"MenuPosition", "Spectator", "CustomWave"};	// Tillåter val av respawn-punkt och synkroniserar respawn-tiden hos fallna spelare. // "MenuInventory",
 respawnTemplatesVirtual[] = {};
 //respawnOnStart = 1;									// Undviker respawn-tid vid spelstart.
 
@@ -94,10 +94,10 @@ class CfgRespawnTemplates
 
 class CfgSounds
 {
-    class saystavaj
+    class Allahuakbar
     {
     name="Allahuakbar";
-    sound[]={allahu.ogg, 1, 4.0};
+    sound[]={sounds\allahu.ogg, 13, 1.0, 100};
     titles[]={};
     };
 
